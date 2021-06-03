@@ -1,3 +1,9 @@
+a{
+    /* text-decoration: none; */
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
 .home{
     width: 100%;
     height: 100vh;
@@ -15,12 +21,33 @@ h1{
     font-size: 84px;
     font-weight: bold;
 }
-span{
-    display: none;
+.firstheading::after{
+    content: "Hello .";
 }
-.firstheading:hover .one{
-    display: block;
+.firstheading:hover::after {
+    content: "About";
+    cursor: pointer;
+
 }
-.firstheading:hover {
-    display:none;
+.secondheading::after{
+    content: "I";
+}
+.secondheading:hover::after {
+    content: "Contact";
+    cursor: pointer;
+
+}
+.thirdheading::after{
+    content: "am";
+}
+.thirdheading:hover::after {
+    cursor: pointer;
+    content: "Blog";
+
+}
+.fourthheading::after{
+    content: "Bipin";
+}
+.fourthheading:hover::after {
+    content: "Project";
 }
