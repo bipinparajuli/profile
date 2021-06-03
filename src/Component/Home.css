@@ -1,0 +1,26 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.second_col{
+    background-image: url("../assets/my-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    font-size: 84px;
+    font-weight: bold;
+}
+span{
+    display: none;
+}
+.firstheading:hover .one{
+    display: block;
+}
+.firstheading:hover {
+    display:none;
+}
