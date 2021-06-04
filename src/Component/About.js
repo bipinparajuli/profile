@@ -3,7 +3,29 @@ import './About.css'
 const About = () => {
     return (
         <div className="about">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit rem sit similique suscipit vitae aliquid. Possimus, sint. Minus reiciendis ea asperiores, veritatis consectetur voluptas earum exercitationem alias provident ab eaque perspiciatis vitae dolores dolorem praesentium similique. Minus perspiciatis eligendi explicabo numquam et facilis, nam recusandae reiciendis, voluptates ipsa assumenda nihil vel porro delectus cumque beatae. Temporibus soluta omnis tenetur consectetur architecto quae sint similique voluptas! Inventore perspiciatis quos optio iste aspernatur eaque ullam sapiente iusto omnis velit, aut facere, quasi labore obcaecati molestiae consequatur vero? Tempora dignissimos suscipit velit libero deleniti aperiam mollitia quae, veniam, distinctio, provident sunt cumque.</h1>
+            <div className="content">
+                <h1>
+                    I write some code .
+                </h1>
+                <h5>
+                    About
+                </h5>
+<p>
+    I'm Bipin Parajuli. I am an aspiring Full Stack Web Developer.
+
+My primary focus is on building Front End Web Applications from a sketch.
+
+My skillsets include languages like JavaScript, Java, CSS3, HTML5, C together with frameworks like React JS, Node JS,express and Bootstrap.
+
+I do this because I love the process of turning dreams into reality by converting ideas into code. I have a serious passion for designing the top-grade UI’s with working logic to create a dynamic user experience.
+
+I have spent the past two years learning top-notch technologies and enhancing my skill sets. I have developed a couple of real-world projects during my learning phase as I love project-based learning.
+
+Recently I'm a student of Bachelor Of Computer Application at Xavier International College.
+
+On a side note, I love playing cricket and learning new technologies every day. It is something that allows me to be creative, connect with people.
+</p>
+            </div>
         </div>
     )
 }

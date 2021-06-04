@@ -1,5 +1,19 @@
 .contact{
-    background-color: black;
     height: auto;
     width: 100%;
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h1{
+    color: white;
+}
+p{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.content{
+    width: 500px;
 }

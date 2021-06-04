@@ -1,11 +1,37 @@
 import React from 'react'
 import './Contact.css'
-
+import {Link} from "react-router-dom"
 const Contact = () => {
     return (
-        <div className="contact">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptatem natus ut laboriosam vitae culpa. Odio sequi, aut rerum, saepe unde, nostrum quisquam iure molestiae corporis consectetur recusandae a quia. Atque eum itaque nostrum laborum incidunt voluptate esse modi commodi ut tempora doloribus mollitia, architecto nisi ab fugit harum ad autem? Pariatur impedit, sit saepe voluptates numquam, adipisci aut illum officiis, tenetur error assumenda eius non. Dolor explicabo voluptatum commodi amet ducimus saepe suscipit, soluta odio id officiis minus sunt possimus eveniet illum, vero recusandae quasi ullam enim ipsam omnis perspiciatis nulla iste nisi deleniti? Praesentium harum, quibusdam minima assumenda esse ab, tempore iste laborum officiis et, a eius. Repudiandae delectus quod aliquam dolores! Deleniti eum recusandae maxime fugiat tenetur asperiores repellendus nulla consequatur, assumenda rem accusantium, ab expedita quos excepturi ad illum laboriosam? Voluptatum vitae modi cum recusandae ullam vel nihil quibusdam. Officia, doloremque numquam expedita amet deleniti mollitia ipsum, debitis quasi distinctio similique repellat maiores nisi, cupiditate cumque. Cum nemo pariatur distinctio repellendus nostrum eveniet alias ipsum eaque voluptates aliquid nesciunt earum fuga reiciendis possimus consequatur vero debitis minima et, maxime tempora? Quia, tempora harum debitis nobis nisi eligendi excepturi a accusamus perspiciatis, sunt vero labore magni hic.</p>
+        <div className="about">
+        <div className="content">
+            <h1>
+                Let's make something great .
+            </h1>
+            <h5>
+                Contact
+            </h5>
+<p>
+
+I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them. I want to bring my collective design experience to the table where we can work together to solve real business-problems in a way that optimizes all of our respective experience and knowledge.
+			</p>
+
+            <p>
+I want to avoid subjective pissing-matches, and favor open-minded collaborators where egos are out of the equation. 
+If that all sounds about right, then lets for sure chat about how we can work together.
+			</p>
+            <p>            
+Feel free to reach out through any platforms bellow:
+			</p>
+
+<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+
         </div>
+    </div>
     )
 }
 
