@@ -7,7 +7,7 @@ import {Fade,Zoom} from "react-reveal"
 const Home = () => {
     return (
         <Container fluid className="home">
-            <Row style={{width:"100%",justifyContent:"center",alignItems:"center"}}>
+            <Row className="content" style={{width:"100%",justifyContent:"center",alignItems:"center"}}>
                 <Col style={{color:"white"}}>
                   <Fade bottom>
 

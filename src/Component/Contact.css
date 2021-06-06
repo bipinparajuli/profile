@@ -15,5 +15,18 @@ p{
     font-size: 18px;
 }
 .content{
-    width: 500px;
+    width: 700px;
+    margin-bottom: 10%;
+}
+
+.content a{
+    color: red;
+    font-weight: 600;
+    font-size: 24px;
+ line-height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.content a:hover {
+    color: white;
+    margin-left: 10%;
 }

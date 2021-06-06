@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import {Link} from "react-router-dom"
+
 const Contact = () => {
     return (
         <div className="about">
@@ -24,11 +24,11 @@ If that all sounds about right, then lets for sure chat about how we can work to
 Feel free to reach out through any platforms bellow:
 			</p>
 
-<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
-<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
-<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
-<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
-<a href="www.bipinparajuli.com.np" target="blank">bipinprjl.com.np</a>
+<a target="blank" href="https://www.linkedin.com/in/bipin-parajuli-6580a3190/">Linkdin</a><br />
+<a target="blank" href="https://www.facebook.com/bipin.sharma.37051">Facebook</a><br />
+<a target="blank" href="https://www.instagram.com/bipinprjl//">Instagram</a><br />
+
+
 
         </div>
     </div>

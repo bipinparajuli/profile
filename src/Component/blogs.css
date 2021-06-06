@@ -1,0 +1,12 @@
+.blogs{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content a{
+font-size: 34px !important;
+}
