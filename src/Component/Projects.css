@@ -1,0 +1,13 @@
+.project{
+    background-color: black;
+}
+
+.row{
+    flex-wrap: wrap !important;
+}
+
+.col-3{
+    max-width: 30% !important;
+    flex: 0 0 33% !important;
+    margin-bottom: 30px;
+}

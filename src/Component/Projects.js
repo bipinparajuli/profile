@@ -1,9 +1,25 @@
 import React from 'react'
+import "./Projects.css"
+import Card from './UI/Cards'
+import {data} from '../data'
+import BackIcon from './UI/BackIcon'
 
 const Projects = () => {
+
     return (
-        <div>
-            
+        <div className="project">
+            <BackIcon />
+            <div className="container">
+            <div className="row">
+            {data.map(data=>(
+<div className="col-3 column">
+<Card title={data.title} text={data.text} src={data.src} link={data.link} />
+</div>
+
+            ))}
+            </div>
+            </div>
+
         </div>
     )
 }
