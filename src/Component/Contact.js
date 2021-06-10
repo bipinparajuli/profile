@@ -1,9 +1,11 @@
 import React from 'react'
 import './Contact.css'
+import BackIcon from './UI/BackIcon'
 
 const Contact = () => {
     return (
         <div className="about">
+            <BackIcon />
         <div className="content">
             <h1>
                 Let's make something great .
@@ -21,7 +23,7 @@ I want to avoid subjective pissing-matches, and favor open-minded collaborators 
 If that all sounds about right, then lets for sure chat about how we can work together.
 			</p>
             <p>            
-Feel free to reach out through any platforms bellow:
+Feel free to reach out through any platforms below:
 			</p>
 
 <a target="blank" href="https://www.linkedin.com/in/bipin-parajuli-6580a3190/">Linkdin</a><br />

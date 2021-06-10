@@ -1,9 +1,11 @@
 import React from 'react'
 import "./blogs.css"
+import BackIcon from './UI/BackIcon'
 
 const Blogs = () => {
     return (
         <div className="blogs">
+            <BackIcon  />
             <div className="content">
 <a href="https://medium.com/@bipinparajuli-96229" target="blank">
 Medium
