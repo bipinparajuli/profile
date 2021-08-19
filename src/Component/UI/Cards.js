@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 
+
 const Cards = ({src,title,text,link}) => {
 
   const [overlaping, setoverlaping] = useState(false)
@@ -19,7 +20,7 @@ setoverlaping(true)
       onMouseLeave={hide} 
       
       style={{width: "18rem",borderRadius:"10px"}}>
-  <img className="card-img-top" src={src} alt="Card image cap" />
+  <img className="card-img-top" style={{height:"400px",objectFit:"contain"}} src={src} alt="Card image cap" />
   
   {overlaping? <div className="card-body" style=
   {{position:"absolute",
@@ -36,7 +37,7 @@ setoverlaping(true)
   }}>
     <h5 className="card-title">{title}</h5>
     <p className="card-text">{text}</p>
-    <a href={link} className="btn btn-primary">View Site</a>
+    <a href={link} target="blank" style={{borderColor:"#8D3DAF",borderRadius:"20px",color:"white"}} className="btn btn-outline-primary btn-lg">View Website </a>
   </div> :""}
 </div>
     )
