@@ -4,7 +4,7 @@ import BackIcon from './UI/BackIcon'
 
 const Contact = () => {
     return (
-        <div className="about">
+        <div className="contact">
             <BackIcon />
         <div className="content">
             <h1>

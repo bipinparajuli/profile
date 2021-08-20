@@ -10,14 +10,14 @@ const Projects = () => {
     return (
         <div className="project">
             <BackIcon />
-            <div className="container">
+            <div className="containers">
                 <div className="title">
                     <h3>My Recent Works</h3>
                     <p>Here are my recent works</p>
                 </div>
             <div className="row">
             {data.map(data=>(
-<div className="col-3 column">
+                <div style={{padding:"20px"}}>
 <Card title={data.title} text={data.text} src={data.src} link={data.link} />
 </div>
 

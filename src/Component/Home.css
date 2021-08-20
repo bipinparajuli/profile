@@ -77,10 +77,11 @@ h1{
     color: red;
     margin-left: 10%;
     }
-@media only screen and(min-width:700px)
-{
- .content{
-     display: flex;
-     flex-direction: column;
- }   
-}
+    @media only screen and (max-width: 600px) {
+        .content {
+            flex-direction: column;
+        }
+        h1{
+            font-size: large;
+        }
+      }

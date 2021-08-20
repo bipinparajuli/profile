@@ -18,8 +18,9 @@ setoverlaping(true)
       
       <div className="card"  onMouseEnter={show}
       onMouseLeave={hide} 
-      
-      style={{width: "18rem",borderRadius:"10px"}}>
+      style={{width: "18rem",borderRadius:"10px"}}
+      >
+        
   <img className="card-img-top" style={{height:"400px",objectFit:"contain"}} src={src} alt="Card image cap" />
   
   {overlaping? <div className="card-body" style=
